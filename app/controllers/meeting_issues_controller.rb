@@ -5,7 +5,7 @@ class MeetingIssuesController < ApplicationController
   before_filter :new_issue, only: [:new, :create]
   before_filter :require_meeting_manager
 
-  helper :watchers
+  helper :meeting_watchers
   include WatchersHelper
 
   def new

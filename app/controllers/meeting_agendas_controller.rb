@@ -19,7 +19,7 @@ class MeetingAgendasController < ApplicationController
   include MeetingExternalApproversHelper
   helper :meeting_members
 #  include MeetingMembersHelper
-  helper :contacts
+  helper :meeting_contacts
   # include ContactsHelper
 
   include ApplicationHelper

@@ -19,7 +19,7 @@ class MeetingProtocolsController < ApplicationController
   include MeetingBindIssuesHelper
   helper :meeting_participators
   #include MeetingPatricipatorsHelper
-  helper :contacts
+  helper :meeting_contacts
   # include ContactsHelper
 
   before_filter :find_object, only: [:edit, :show, :destroy, :update,
